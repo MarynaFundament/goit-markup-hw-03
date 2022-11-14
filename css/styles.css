@@ -130,6 +130,7 @@ img{
 
 .hero{
     background-color: #2F303A;
+  
 }
 
 .hide{
@@ -154,11 +155,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--title-text-color2);
-padding-top:200px;
-padding-bottom: 280px;
-padding-left: auto;
-padding-right: auto;
-margin-bottom: 30px;
+
 }
 
 .button{
@@ -168,6 +165,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
+text-align: center;
 
 background: var(--accent-color);
 border-radius: 4px;
@@ -181,11 +179,16 @@ left: 692px;
 top: 430px;
 
 display: inline-block;
+
+position: absolute;
+
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
 
-/*доробити кнопку по середині???*/
+
+.hero-container{
+    text-align: center;
 }
 
 .button:hover,
@@ -199,6 +202,7 @@ margin-right: auto;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 50px;
+
     
 }
 
@@ -270,6 +274,92 @@ margin-right: auto;
         width: var(calc(100%-90)/4);
     }
 
+.section-title{
+    font-size: 36px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title{
+    font-size: 36px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.section-title-item{
+    width: 270px;
+    gap: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    /*прописати лівий відступ 0???*/
+}
+
+.third-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: var(--title-text-color);
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description-paragraph{
+    font-family:var(--primary-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+   
+    }
+
+.images-list{
+display: flex;
+gap: 30px;
+    }
+
+.images-item{
+    width: (calc(100%-60)/3);  
+}
+
+
+.workers-list{
+display: flex;
+width: (calc(100%-90)/4);
+margin-left: 0;
+/* 1:37 задати відстань між елементами gap??*/
+}
+
+.section-title-item{
+    width: (calc(100%-90)/4);  
+}
+
+.job-title{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+.description{
+    color: #212121;
+}
+
+
 
 /*---------------------MAIN PORTFOLIO------------------------*/
 
@@ -289,13 +379,10 @@ margin-right: auto;
     border: none;
     border-radius: 4px;
     cursor:pointer
+    
 
     display: inline-block;
-   
-    padding-top: 6px;
-    padding-right: 25px;
-    padding-bottom: 6px;
-    padding-left: 25px;
+
 }
 
 .button-portfolio:hover
@@ -335,7 +422,9 @@ margin-right: auto;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em; 
+    letter-spacing: 0.06em;
+
+   
 }
 
 .gallery-paragraph{
@@ -343,6 +432,7 @@ margin-right: auto;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+   
 }
 
 .container-style{
@@ -363,6 +453,7 @@ margin-right: auto;
     background-color: tomato;
     margin-right: 30px;
     margin-bottom: 30px;
+    
 }
 
 .list-item:nth-child(3n){
@@ -380,7 +471,7 @@ margin-right: auto;
 
 .footer{
     background-color:  #2F303A;
-    height: 252px;
+
 }
 
 .logo-footer{
@@ -391,7 +482,7 @@ margin-right: auto;
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-top: 60px;
-    margin-bottom: 20px;
+   
 }
 
   .footer-link, 
@@ -399,6 +490,8 @@ margin-right: auto;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
+    
 
 }
 
@@ -415,6 +508,11 @@ margin-right: auto;
     font-family: var(--primary-font);
     
 }
+
+.footer-container{
+
+}
+
 
 
 
