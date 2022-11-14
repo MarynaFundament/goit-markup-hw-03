@@ -105,8 +105,8 @@ img{
     color: var(--title-text-color);
 }
     
-    .header-nav-link:hover,
-    .header-nav-link:focus{
+.header-nav-link:hover,
+.header-nav-link:focus{
         color:var(--accent-color);
 }
     
@@ -180,96 +180,122 @@ height: 50px;
 left: 692px;
 top: 430px;
 
-position: absolute;
+display: inline-block;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+
 /*доробити кнопку по середині???*/
 }
-
 
 .button:hover,
 .button:focus{
    color:var(--title-text-color2);
    }
-  
-.section-title{
+
+.title-section{
     font-size: 36px;
     line-height: 1.12;
     letter-spacing: 0.03em;
-}
-
-.section-title-item{
-    width: 270px;
-    margin-right: 30px;
-}
-
-.description {
-    display: flex;
-    justify-content: space-between;
-    /*прописати лівий відступ 0???*/
-}
-
-.third-header{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-family: var(--title-text-color);
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 50px;
     
 }
 
-.description-paragraph{
-    font-family:var(--primary-font);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+          /*-------Description section-------*/
+    
+.description {
+    display: flex;
+    justify-content: space-between;
+
+            /*прописати лівий відступ 0???*/
+        }
+
+.third-header{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            font-family: var(--title-text-color);
+            text-align: center;
+            margin-top: 30px; 
+            margin-bottom: 10px;        
     }
 
+.description-paragraph{
+        font-family:var(--primary-font);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+
+    }
+
+
+         /*------------Images-------------*/
 
 .images{
-display: flex;
-gap: 30px;
+    display: flex;
+    gap: 30px;
+            
+        }
+            
 
+
+       /*------------Workers-------------*/
+    
+    .workers{
+        display: flex;
+        gap: 30px;
+        width: (calc(100%-90)/4);
+        margin-left: 0;
+             }
+    
+    .job-title{
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+       }
+    
+    .description{
+        color: #212121;
     }
 
-.workers{
-display: flex;
-gap: 30px;
-width: (calc(100%-90)/4);
-margin-left: 0;
-}
-
-
-.job-title{
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-   }
-
-
-.description{
-    color: #212121;
-}
-
+   .section-title-item{
+        width: var(calc(100%-90)/4);
+    }
 
 
 /*---------------------MAIN PORTFOLIO------------------------*/
+
+/*---------------------BUTTON BAR-----------------------*/
 
 .button-portfolio{
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+
     background: #F5F4FA;
     border: none;
     border-radius: 4px;
     cursor:pointer
+
+    display: inline-block;
    
+    padding-top: 6px;
+    padding-right: 25px;
+    padding-bottom: 6px;
+    padding-left: 25px;
 }
 
 .button-portfolio:hover
@@ -278,7 +304,17 @@ margin-left: 0;
     color:var(--title-text-color2); 
    }
 
-   .hide-gallery{
+ .button-portfolio-list{
+    display: flex;
+    margin-right: 0;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+   }
+
+.hide-gallery{
     border: 0;
     clip: rect(1px,1px,1px,1px);
     -webkit-clip-path:inset(50%);
@@ -291,7 +327,10 @@ margin-left: 0;
     width:1px ;
    }
 
-   .gallery-header{
+
+/*--------------GALLERY-------------*/
+
+.gallery-header{
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -299,7 +338,7 @@ margin-left: 0;
     letter-spacing: 0.06em; 
 }
 
-    .gallery-paragraph{
+.gallery-paragraph{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -351,7 +390,8 @@ margin-left: 0;
     font-size: 26px; 
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
   .footer-link, 
