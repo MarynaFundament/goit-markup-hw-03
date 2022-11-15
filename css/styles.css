@@ -130,8 +130,11 @@ img{
 
 .hero{
     background-color: #2F303A;
+}
+
+.hero-container{
+    text-align: center;
     height: 600px;
-  
 }
 
 .hide{
@@ -156,8 +159,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--title-text-color2);
-margin-top: ;
-
+-top: 200px ;
 }
 
 .button{
@@ -187,9 +189,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.hero-container{
-    text-align: center;
-}
 
 .button:hover,
 .button:focus{
@@ -200,11 +199,20 @@ margin-right: auto;
     font-size: 36px;
     line-height: 1.12;
     letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
-
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;  
 }
+
+.title-h{
+    font-size: 36px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;  
+}
+
+
 
           /*-------Description section-------*/
     
@@ -288,7 +296,6 @@ margin-right: auto;
     text-align: center;
     margin-bottom: 50px;
 }
-
 
 .section-title-item{
     width: 270px;
