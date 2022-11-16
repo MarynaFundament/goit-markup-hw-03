@@ -473,7 +473,6 @@ margin-right: auto;
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
-    background-color: #F5F4FA;
     max-width: auto 0;
     margin-bottom: 94px;
 
