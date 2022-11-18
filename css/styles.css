@@ -139,6 +139,7 @@ img{
     text-align: center;
     height: 600px;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hide{
@@ -201,19 +202,14 @@ margin-right: auto;
 
 
 
-.title-h{
-    font-size: 36px;
-    line-height: 1.12;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px; 
-    margin-top: 94px; 
-}
-
-
 
           /*-------Description section-------*/
-    
+
+.description-container{
+padding-top: 94px;
+padding-bottom: 10px;
+}
+
 .description {
     display: flex;
     justify-content: space-between;
@@ -226,9 +222,7 @@ margin-right: auto;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             font-family: var(--title-text-color);
-            margin-top: 94px;
-            margin-bottom: 10px;
-               
+
     }
 
 .description-paragraph{
@@ -243,39 +237,45 @@ margin-right: auto;
 
          /*------------Images-------------*/
 
+.image-container{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.title-h{
+    font-size: 36px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px; 
+    margin-top: 94px; 
+}
+
 .images{
     display: flex;
     gap: 30px;     
         }
 
-
-.images-list{
-            display: flex;
-            gap: 30px;      
-            }
         
  .images-item{
-            width: (calc(100%-60)/3); 
-            margin: 0; 
+    width: (calc(100%-60)/3); 
+    margin: 0; 
         }
             
 
 
        /*------------Workers-------------*/
-
+.workers-list-common{
+        background-color: #F5F4FA;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 .title-section{
         font-size: 36px;
         line-height: 1.12;
-        letter-spacing: 0.03em;
-        padding-top: 94px;
-        margin-bottom: 50px;  
+        letter-spacing: 0.03em;  
         text-align: center;
     }
-
-
- .workers-list-common{
-   background-color: #F5F4FA;;
-}
     
  .workers-list{
         display: flex;
@@ -289,7 +289,6 @@ margin-right: auto;
 .section-title-item{
         width: var(calc(100%-90)/4);
         background-color: var(--title-text-color2);
-        margin-bottom: 94px;
         width: 270px;
         gap: 30px;  
     }
@@ -382,7 +381,11 @@ padding-bottom: 94px;
 
 
 /*--------------GALLERY-------------*/
-
+.portfolio-container{
+    padding-top: 20px;
+    padding-bottom: 30px ;
+    
+}
 .gallery-header{
     color: var(--title-text-color);
     font-weight: 700;
@@ -392,8 +395,7 @@ padding-bottom: 94px;
 }
 
 .image-capture{
-    padding-top:20px;
-    padding-right:auto ;
+   
     padding-bottom: 20px;
     padding-left: 30px;
     border: 1px solid #EEEEEE;
@@ -446,21 +448,11 @@ padding-bottom: 94px;
     font-size: 26px; 
     line-height: 1.19;
     letter-spacing: 0.03em;  
-
 }
 
 .list-footer{
     margin-top: 20px;
 }
-
-
-  .footer-link, 
-  .footer-contact {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
 
 .footer-link {
     color: var(--title-text-color2); 
@@ -474,6 +466,15 @@ padding-bottom: 94px;
     text-decoration: none;
     font-family: var(--primary-font); 
 }
+
+.footer-link, 
+.footer-contact {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 9px;
+}
+
 
 
 
