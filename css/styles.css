@@ -207,7 +207,7 @@ margin-right: auto;
 
 .description-container{
 padding-top: 94px;
-padding-bottom: 10px;
+padding-bottom: 94px;
 }
 
 .description {
@@ -382,8 +382,8 @@ padding-bottom: 94px;
 
 /*--------------GALLERY-------------*/
 .portfolio-container{
-    padding-top: 20px;
-    padding-bottom: 30px ;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .gallery-header{
@@ -473,8 +473,12 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-bottom: 9px;
+   
 }
+
+.li-footer:not(:last-child) {
+    margin-bottom: 9px;
+    }
 
 
 
